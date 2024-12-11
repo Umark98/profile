@@ -10,7 +10,7 @@ export default function TrouveTavoie() {
     },
     {
       text: "Worked with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Next.js/React, AWS and Vercel.",
-      keywords: ["Next.js/React", "AWS", "Vercel"],
+      keywords: ["Next.js/React", "Vercel"],
     },
     {
       text: "Interfaced with developers on a daily basis, providing technological expertise.",
@@ -24,10 +24,10 @@ export default function TrouveTavoie() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ Blockchain</span>
+            Software Engineer <span className="text-AAsecondary"></span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Mars - August 2022</span>
+          <span className="font-mono text-xs text-gray-500"> August 2022</span>
           <span className="font-mono text-xs text-AAsecondary hover:cursor-pointer" style={{ fontSize: "0.6rem" }}
            // set on click to open the website
            onClick={() => window.open("https://www.trouvetavoie.io/", "_blank")}

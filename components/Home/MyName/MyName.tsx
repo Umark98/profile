@@ -29,7 +29,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        Muhammad Osama.
+        Umar Khitab.
       </motion.h1>
       <motion.h2
         initial={{ y: 10, opacity: 0 }}
@@ -56,9 +56,9 @@ export default function MyName(props: { finishedLoading: boolean }) {
         specialize in crafting exceptional <br className="2xl:block hidden" />
         digital experiences. My current area of focus is in the <span className="text-AAsecondary">web3 domain</span>,
         where I actively engage in developing <br className="2xl:block hidden"/>
-        and designing immersive <span className="text-AAsecondary">web3 applications</span>. This involves working with{" "}
+        {/* and designing immersive <span className="text-AAsecondary">web3 applications</span>. This involves working with{" "}
         <span className="text-AAsecondary">Smart Contracts</span>  on the{" "}
-        <span className="text-AAsecondary">Blockchain</span>. 
+        <span className="text-AAsecondary">Blockchain</span>.  */}
         {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
         front-end components to enable seamless user interactions. */}
       </motion.h3>

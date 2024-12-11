@@ -5,7 +5,7 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function EnsVision() {
   const tasks = [
     {
-      text: "Worked on the front-end development in the web3 domain using Next.js, Alchemy, Tailwind CSS, Wagmi, Web3.js, Moralis, Ethers.js",
+      text: "Worked on the front-end development in the web3 domain using Next.js, Alchemy, Tailwind CSS,  Web3.js,  Ethers.js",
       keywords: ["Alchemy", "Wagmi", "Web3.js", "Moralis", "Ethers.js"],
     },
     {
@@ -17,8 +17,8 @@ export default function EnsVision() {
       keywords: ["website design"],
     },
     {
-      text: "Collaborated closely with the team in regular meetings and interacted with smart contracts and gained expertise in ENS",
-      keywords: ["smart contracts", "ENS"],
+      text: "Collaborated closely with the team in regular meetings and interacted with the project",
+      keywords: ["meetings", "project"],
     },
   ];
 
@@ -32,14 +32,14 @@ export default function EnsVision() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">Dec 2022 - Jun 2023</span>
-          <span
+          {/* <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
             // set on click to open the website
             onClick={() => window.open("https://www.ens.vision/", "_blank")}
           >
             www.ens.vision
-          </span>
+          </span> */}
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}

@@ -107,8 +107,8 @@ export default function Home() {
 
   console.log("website is rendering...");
   const meta = {
-    title: "Muhammad Osama- Software Engineer",
-    description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
+    title: "Umar Khitab-Software Engineer",
+    description: `I've been working on Software development for 2 years straight. Get in touch with me to know more.`,
     image: "/titofCercle.png",
     type: "website",
   };
@@ -120,8 +120,8 @@ export default function Home() {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://muhammadosama.netlify.app/`} />
-        <link rel="canonical" href={`https://muhammadosama.netlify.app/`} />
+        {/* <meta property="og:url" content={`https://muhammadosama.netlify.app/`} />
+        <link rel="canonical" href={`https://muhammadosama.netlify.app/`} /> */}
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Manu Arora" />
         <meta property="og:description" content={meta.description} />
@@ -146,7 +146,7 @@ export default function Home() {
           {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
           {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
           {context.sharedState.finishedLoading ? (
-            <Footer githubUrl={"https://github.com/usamahafiz8"} hideSocialsInDesktop={true} />
+            <Footer githubUrl={"https://github.com/Umark98"} hideSocialsInDesktop={true} />
           ) : (
             <></>
           )}

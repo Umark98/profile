@@ -13,8 +13,8 @@ export default function AdvancedAgroManagement() {
       keywords: ["MOnitored","WordPress issues"],
     },
     {
-      text: "Managed company WordPress website back-end with Oracle Database including plugins, tools, and themes.",
-      keywords: ["Oracle Database"],
+      text: "Managed company WordPress website back-end with MongoDB including plugins, tools, and themes.",
+      keywords: ["MongoDB "],
     },
   ];
   return (

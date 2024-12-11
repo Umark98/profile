@@ -32,9 +32,9 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
         <div className="flex flex-col space-y-8 justify-center items-center">
           <div className="flex flex-col justify-center items-center space-y-5">
             {/* Github Icon */}
-            <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/Usamahafiz8"} />
+            <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/Umark98"} />
             {/* Linkedin icon */}
-            <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/muhammadosamaanwar/"} />
+            {/* <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/muhammadosamaanwar/"} /> */}
             {/* Instagram Icon */}
             {/* <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/xredme/"} /> */}
           </div>
@@ -60,9 +60,9 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             }}
             className=""
           >
-            <a href="mailto:usamahafiz8@gmail.com" target={"_blank"} rel="noreferrer">
+            <a href="mailto:Umarorakzai98@gmail.com" target={"_blank"} rel="noreferrer">
               <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">
-                usamahafiz8<span className="text-AAsecondary">@</span>gmail<span className="text-AAsecondary">.</span>com
+                Umarorakzai98<span className="text-AAsecondary">@</span>gmail<span className="text-AAsecondary">.</span>com
               </span>
             </a>
           </motion.div>

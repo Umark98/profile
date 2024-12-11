@@ -134,7 +134,7 @@ const CompaniesBar = props => {
             CompanyNameBackgroundColorGreen={[false,true, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
-          <CompanyButton
+          {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
             CompanyName="FeverTokens"
             BarPosition={76}
@@ -142,8 +142,8 @@ const CompaniesBar = props => {
             DescriptionJob="FeverTokens"
             CompanyNameBackgroundColorGreen={[false,false, true, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
-          />
-          <CompanyButton
+          /> */}
+          {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
             CompanyName="IdealFresh"
             BarPosition={120}
@@ -151,7 +151,7 @@ const CompaniesBar = props => {
             DescriptionJob="IdealFresh"
             CompanyNameBackgroundColorGreen={[false, false, false, true, false, false]}
             setDescriptionJob={props.setDescriptionJob}
-          />
+          /> */}
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={4}
             CompanyName="SuperBerry"
@@ -170,7 +170,7 @@ const CompaniesBar = props => {
             CompanyNameBackgroundColorGreen={[false, false, false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
           />
-          <CompanyButton
+          {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={6}
             CompanyName="Fantasia SME"
             BarPosition={252}
@@ -178,7 +178,7 @@ const CompaniesBar = props => {
             DescriptionJob="Fantasia"
             CompanyNameBackgroundColorGreen={[false, false, false, false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
-          />
+          /> */}
         </div>
         <div className="block md:hidden h-0.5 rounded bg-gray-500">
           <motion.div animate={{ x: barAbovePosition }} className="w-[128px] h-0.5 rounded bg-AAsecondary"></motion.div>
