@@ -31,12 +31,12 @@ export default function GetInTouch() {
         {/* Buttons Section */}
         <div className="pt-4 flex space-x-4 items-center">
           {/* Say Hello Button */}
-          <a  href="https://wa.link/8u5pbu ">
+          <a href="https://wa.link/8u5pbu">
             <button
               className="font-mono text-sm text-AAsecondary border-AAsecondary 
                             px-8 py-4 border-[1.5px] rounded"
             >
-              Let's Chat 
+              Let&apos;s Chat
             </button>
           </a>
 
