@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://umar-khitabportfolio.netlify.app/sitemap.xml
