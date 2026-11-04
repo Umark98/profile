@@ -36,9 +36,9 @@ export default function Header(_props: { finishedLoading: boolean; sectionsRef: 
         </button>
         <nav id="portfolio-navigation" aria-label="Main navigation" className={`portfolio-nav ${menuOpen ? "is-open" : ""}`}>
           {sections.map(([number, label, id]) => (
-            <a key={id} href={`/#${id}`} onClick={() => setMenuOpen(false)}><span>{number}.</span> {label}</a>
+            <a key={id} href={`/#${id}`} onClick={() => setMenuOpen(false)}><span className="portfolio-nav-number">{number}.</span> {label}</a>
           ))}
-          <a className="portfolio-button portfolio-button-small" href="/umar-orakzai-resume.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>
+          <a className="portfolio-button portfolio-button-small" href="/umar-orakzai-resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="View Umar Orakzai’s résumé PDF (opens in a new tab)" onClick={() => setMenuOpen(false)}>
             Résumé <span className="portfolio-file-type">PDF</span>
           </a>
         </nav>

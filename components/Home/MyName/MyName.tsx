@@ -5,8 +5,8 @@ export default function MyName(_props: { finishedLoading: boolean }) {
       <h1 id="hero-title">Umar Orakzai<span>.</span></h1>
       <p className="portfolio-hero-statement">I build SaaS<br className="portfolio-desktop-break" /> and Web3 products.</p>
       <p className="portfolio-hero-description">
-        I work across <strong>AI-powered SaaS</strong>, full-stack web applications and blockchain products,
-        connecting backend systems, intelligent workflows and smart contracts with React and Next.js experiences.
+        I build web interfaces, backend services and blockchain integrations for <strong>AI SaaS and Web3 products</strong>.
+        My work spans React and Next.js, local LLM workflows, and smart contracts on Sui and BNB Chain.
       </p>
       <div className="portfolio-actions">
         <a className="portfolio-button portfolio-button-primary" href="#SomethingIveBuiltSection">View selected work <span aria-hidden="true">↗</span></a>

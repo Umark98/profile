@@ -1,8 +1,8 @@
 const experience = [
   {
-    company: "Greer", role: "Full-Stack SaaS Developer", period: "Feb 2026 — Present", location: "Private AI growth product",
+    company: "FirstEpic", role: "Full-Stack SaaS Developer", period: "Feb 2026 — Present", location: "Greer · Private AI growth product",
     points: [
-      "Developing a private, locally hosted AI growth platform across dashboard interfaces, backend APIs and background workflows.",
+      "Developing dashboard interfaces, backend APIs and background workflows for Greer, a private, locally hosted AI growth platform.",
       "Contributing to AI-assisted content, research, CRM/relationship management, growth experiments and funnel tracking.",
       "Working in a TypeScript/Next.js monorepo with PostgreSQL/pgvector, Redis/BullMQ, retrieval-augmented memory and local LLM integration through Ollama.",
     ],

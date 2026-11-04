@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="glow" cx="95%" cy="10%" r="90%"><stop stop-color="#183e49"/><stop offset="1" stop-color="#0b192f"/></radialGradient></defs>
+<rect width="1200" height="630" fill="url(#glow)"/>
+<rect x="72" y="78" width="54" height="5" rx="2.5" fill="#64ffda"/>
+<g stroke="#64ffda" opacity=".08" fill="none"><circle cx="1100" cy="145" r="150"/><circle cx="1100" cy="145" r="220"/><circle cx="1100" cy="145" r="290"/></g>
+<text x="72" y="156" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2" fill="#64ffda">FULL-STACK &amp; BLOCKCHAIN DEVELOPER</text>
+<text x="67" y="283" font-family="Arial, sans-serif" font-size="91" font-weight="700" letter-spacing="-3" fill="#e2e8f0">Umar Orakzai<tspan fill="#64ffda">.</tspan></text>
+<text x="74" y="357" font-family="Arial, sans-serif" font-size="35" fill="#a5b4c9">AI SaaS and Web3 products.</text>
+<line x1="72" y1="505" x2="1128" y2="505" stroke="#30465b"/>
+<text x="74" y="554" font-family="Arial, sans-serif" font-size="22" fill="#bdcadb">umar-khitabportfolio.netlify.app</text>
+<text x="1128" y="554" text-anchor="end" font-family="Arial, sans-serif" font-size="19" letter-spacing="1.5" fill="#a5b4c9">ISLAMABAD, PAKISTAN</text>
+</svg>

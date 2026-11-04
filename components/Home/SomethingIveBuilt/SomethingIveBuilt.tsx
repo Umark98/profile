@@ -1,11 +1,11 @@
 const projects = [
   {
-    title: "Greer", category: "Private AI growth platform", role: "Full-stack development · Feb 2026–Present",
-    description: "Greer is a private, locally hosted AI growth and relationship-management platform. Its conversational agent and operations dashboard bring together content planning, research, CRM, growth experiments and funnel tracking. My work spans the web interface, backend APIs, AI integrations and workflow reliability.",
+    title: "Greer", category: "Private AI growth platform", role: "Full-stack development at FirstEpic · Feb 2026–Present",
+    description: "A private, locally hosted AI platform combining a conversational agent with content planning, research and CRM workflows. At FirstEpic, I develop its web interfaces, backend APIs, AI integrations and background jobs for growth experiments and funnel tracking.",
     features: [
-      "Ollama/local LLM integration and configurable model routing, with retrieval-augmented memory backed by PostgreSQL/pgvector.",
-      "Redis/BullMQ background jobs for research, drafting, scheduling and performance-feedback workflows.",
-      "Review and approval states, operational controls and audit trails for visibility into decisions and actions.",
+      "Local models through Ollama, configurable model routing and retrieval-augmented memory with PostgreSQL/pgvector.",
+      "Redis/BullMQ jobs for research, drafting, scheduling and performance feedback.",
+      "Review and approval workflows with operational controls and audit trails.",
     ],
     technologies: ["Next.js / TypeScript", "PostgreSQL / pgvector", "Redis / BullMQ", "Ollama / Local LLMs"],
     url: "", visual: "greer", wordmark: "GREER", caption: "AI workflows · Research · Relationship management",
