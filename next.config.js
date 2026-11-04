@@ -2,7 +2,6 @@
 
 const nextConfig = {
   reactStrictMode: false,
-  swcMinify: true,
   async redirects() {
     return [
       { source: "/resume.pdf", destination: "/umar-orakzai-resume.pdf", permanent: true },

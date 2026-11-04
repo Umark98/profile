@@ -27,7 +27,7 @@ export default function Header(_props: { finishedLoading: boolean; sectionsRef: 
   return (
     <header className="portfolio-header">
       <div className="portfolio-header-inner">
-        <Link href="/"><a className="portfolio-logo" aria-label="Umar Orakzai home">U<span aria-hidden="true">.</span></a></Link>
+        <Link href="/" className="portfolio-logo" aria-label="Umar Orakzai home">U<span aria-hidden="true">.</span></Link>
         <button className="portfolio-menu-button" ref={menuButton} type="button"
           aria-expanded={menuOpen} aria-controls="portfolio-navigation"
           aria-label={menuOpen ? "Close navigation" : "Open navigation"}
